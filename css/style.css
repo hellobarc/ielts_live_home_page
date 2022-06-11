@@ -1,0 +1,540 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topbar{
+    padding: 6px 0;
+}
+/* nav-bar css start*/
+.nav_bar{
+    background-color: #184664;
+    padding: 5px 0 5px 0;
+}
+.nav_item{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nav_item:hover{
+    color: #fff;
+}
+.nav_icon{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 5px;
+}
+/* nav-bar css end*/
+/* baner section css start */
+.banner{
+ background-color: #70A288;
+
+}
+.banner_text{
+    color: #fff;
+    padding: 50px 0 30px 0;
+
+}
+.banner_heading_text{
+    line-height: 50px;
+}
+.subsciber{
+    width: 25px;
+    border-radius: 40px;
+    position: absolute;
+}
+.subsciber-1{
+    position: relative;
+    bottom: 4px;
+    left: 17px;
+    
+}
+.subsciber-2{
+    position: relative;
+    bottom: 4px;
+    left: 5px;
+}
+.banner_button{
+    margin: 30px 0 50px 0;
+}
+.banner_btn{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #e64728;
+    padding: 15px 35px;
+    background-color: #e64728;
+    border-radius: 5px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1;
+    
+}
+.banner_btn:hover{
+    color: #fff;
+    background-color: #f07b63;
+    border: 1px solid #f07b63;
+}
+.banner_person{
+    width: 100%;
+}
+/* baner section css end */
+/* online test section start */
+.online_test_heading{
+    color: #184664;
+    margin: 30px 0 30px 0;
+    font-weight: 700;
+
+}
+.online_test_text_box{
+    text-align: center;
+    margin-top: 20px;
+}
+.online_test_text{
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    color: #184664;
+    text-decoration: none;
+}
+.online_test_image{
+    width: 90%;
+    text-align: center;
+}
+.online_test_all_icon{
+    color: #FAAA5A;
+    font-weight: 500;
+    font-size: 20px;
+}
+.online_test_all_icon a{
+     text-decoration: none;
+}
+.online_test_icon_fas{
+color: #FAAA5A;
+}
+.online_test_icon_far{
+    color: #FAAA5A;
+}
+.online_test_icon_voting{
+    color: #184664;
+    font-size: 15px;
+}
+/* online test section end */
+/* live lesson section start */
+.live_lesson_heading{
+    color: #184664;
+    margin: 30px 0 3px 0;
+    font-weight: 700;
+}
+.live_lesson_box_heading{
+    margin: 35px 42px 0px 140px;
+    border: 1px solid #DAA588;
+    background-color: #DAA588;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    height: 40px;
+}
+.live_lesson_box_2_heading{
+    margin: 35px 42px 0px 140px;
+    border: 1px solid #FA9B3C;
+    background-color: #FA9B3C;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    height: 40px;
+}
+.live_lesson_box_3_heading{
+    margin: 35px 42px 0px 140px;
+    border: 1px solid #84B59F;
+    background-color: #84B59F;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    height: 40px;
+}
+.live_lesson_hero_area{
+    border: 2px solid #DAA588;
+    position: relative;
+    width: 90%;
+}
+.live_lesson_hero_area_box_2{
+    border: 2px solid #FA9B3C;
+    position: relative;
+    width: 90%;
+}
+.live_lesson_hero_area_box_3{
+    border: 2px solid #84B59F;
+    position: relative;
+    width: 90%;
+}
+.live_lesson_hero_area_heading{
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+    position: absolute;
+    top: 0;
+}
+/* .live_lesson_hero_area_image{} */
+.live_lesson_hero_area_image img{
+    width: 100%;
+}
+.live_lesson_hero_area_person_name{
+    background-color: #D9D9D9;
+    padding: 10px 0 10px 25px;
+    font-size: 25px;
+}
+/* .live_lesson_hero_area_person_information{}
+.live_lesson_hero_area_person_image{} */
+.live_lesson_hero_area_person_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 236px;
+    left: 320px;
+    transform: rotateY(180deg);
+}
+.live_lesson_hero_icon_menu{
+    margin: 40px 0px 40px 50px;
+}
+.live_lesson_hero_area_person_icon{
+    display: block;
+    margin: 20px 0 24px 0;
+    text-align: center;
+}
+.live_lesson_hero_area_icon_text{
+    margin: 14px 0;
+    font-weight: 500;
+}
+.live_lesson_hero_area_button{
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.live_lesson_hero_area_btn{
+    border: 1px solid #DAA588;
+    background-color: #DAA588;
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1px 117px;
+}
+.live_lesson_hero_area_btn_box_2{
+    border: 1px solid #FA9B3C;
+    background-color: #FA9B3C;
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1px 117px;
+}
+.live_lesson_hero_area_btn_box_3{
+    border: 1px solid #84B59F;
+    background-color: #84B59F;
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1px 117px;
+}
+.live_lesson_hero_area_btn:hover{
+    color: #fff;
+}
+.live_lesson_hero_area_btn_box_2:hover{
+    color: #fff;
+}
+.live_lesson_hero_area_btn_box_3:hover{
+    color: #fff;
+}
+.live_lesson_button{
+    text-align: center;
+    margin: 40px 0;
+}
+.live_lesson_btn{
+    text-decoration: none;
+    background: #184664;
+    padding: 9px 35px;
+    width: 20%;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.live_lesson_btn:hover{
+    color: #fff;
+}
+/* live lesson section end */
+/* upcoming live session section start */
+.live_session_heading{
+    color: #184664;
+    margin: 30px 0 30px 0;
+    font-weight: 700;
+}
+.live_session_1{
+    background: #D9D9D9;
+    border-radius: 15px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px #afaaaac9;
+}
+.live_session_1_first_div_heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    background: #faaa5ace;
+    border-radius: 15px 0 0 0;
+    padding: 10px 0 1px 0;
+}
+.live_session_1_first_div_footer{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    background: #FA9B3C;
+    border-radius: 0 0 0 15px;
+    padding: 1px 0;
+}
+.live_session_1_second_div_heading{
+    margin: 20px 0 10px 0;
+    color: #184664;
+}
+.live_session_1_second_div_heading_text{
+    font-weight: 700;
+}
+.live_session_1_second_div_img{
+    border-radius: 50%;
+    margin: 5px 0 0 0;
+}
+.live_session_1_second_div_text{
+    margin: 14px 0 0 0;
+}
+.live_session_1_second_div_cost{
+    margin: 49px 0 15px 105px;
+    color: #284664ba;
+    font-size: 30px;
+    font-weight: 700;
+}
+.live_session_1_second_div_cost_button{
+    text-decoration: none;
+    background: #17A2B8;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 3px;
+    margin: 17px 0 15px 105px;
+    font-weight: 500;
+}
+/* upcoming live session section end */
+/* why use online test section start */
+.why_use_online_test_heading{
+    color: #184664;
+    margin: 30px 0 30px 0;
+    font-weight: 700;
+}
+.why_use_online_test_thumbnail_heading{
+    text-align: center;
+    font-weight: 700;
+    color: #184664;
+    margin: 10px 0;
+}
+.why_use_online_test_thumbnail_text{
+    text-align: justify;
+    font-weight: 400;
+}
+/* why use online test section end */
+/* mock test section css start */
+.mock_test{
+    background: #f1e9e959;
+    margin-bottom: 51px;
+}
+.mock_test_section_heading{
+    color: #184664;
+    margin: 30px 0 30px 0;
+    font-weight: 700;
+}
+.mock_test_section_image{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.mock_test_section_text{
+    text-align: justify;
+    line-height: 1.9;
+}
+.mock_test_section_button{
+    border: 1px solid #17A2B8;
+    background-color: #17A2B8;
+    color: #fff;
+    padding: 9px 19px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* mock test section css end */
+/* ielts tips section start */
+.ielts_tips{
+    background-color: #70A288;
+}
+.ielts_tips_heading{
+    text-align: center;
+    margin: 35px 0 25px 0;
+    font-weight: 700;
+}
+.ielts_tips_image{
+    margin: 20px 0 50px 0;
+}
+.ielts_tips_heading_2{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 15px 0 10px 5px;
+}
+.ielts_tips_text{
+    font-size: 20px;
+}
+.ielts_tips_type{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ielts_tips_type_icon{
+    transform: rotateY(180deg);
+    font-size: 14px;
+}
+.ielts_tips_type_view{
+    float: right;
+}
+.ielts_tips_type_view_icon{
+    margin-right: 6px;
+}
+.ielts_tips_type_date{
+    float: right;
+}
+.ielts_tips_type_date_icon{
+    margin-left: 40px;
+}
+/* ielts tips section end */
+/* ielts preparation section start */
+.ielts_preparation_heading{
+    margin: 30px 0 30px 0;
+    color: #184664;
+    font-weight: 700;
+}
+.ielts_preparation_icon{
+    font-size: 80px;
+    margin-right: 5px;
+}
+.ielts_preparation_icon_text{
+    font-size: 26px;
+
+}
+.ielts_preparation_icon_menu_bar{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+/* ielts preparation section end */
+/* partner section start */
+.partners_section_heading{
+    color: #184664;
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+}
+/* partner section end */
+/* contact section start */
+.contact_heading{
+    color: #184664;
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+}
+.button_form{
+    text-align: center;
+    margin: 51px 0;
+}
+.btn_form {
+    background-color: #184664;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2px 40px;
+    border: 1px solid #184664;
+    border-radius: 5px;
+}
+/* contact section end */
+/* about section start */
+.about_section_heading{
+    color: #184664;
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+}
+.about_section_text{
+    text-align: justify;
+}
+.disclaimer_section_heading{
+    color: #184664;
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+}
+.disclaimer_section_text{
+    text-align: justify;
+
+}
+/* .disclaimer_section_image{
+
+} */
+/* about section end */
+/* follow us section start */
+.follow_us_section_heading{
+    color: #184664;
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+}
+.follow_us_section_all_icon{
+    text-decoration: none;
+}
+.follow_us_section_icon{
+    margin: 0 25px 0 0;
+    font-size: 35px;
+    color: #000000d4;
+}
+/* follow us section end */
+/* footer section start */
+.footer{
+    background: #184664;
+    margin-top: 30px;
+}
+.footer_section_security{
+    margin-top: 60px;
+}
+.footer_section_privacy_policy{
+    text-decoration: none;
+    color: #c7bebe;
+    margin: 55px 15px 0 0;
+}
+.footer_section_privacy_policy:hover{
+    color: #c7bebe;
+}
+.footer_section_copyright_text{
+    float: right;
+    color: #c7bebe78;
+    margin-top: 55px;
+}
+
+/* footer section end */
+/* go to top button css start*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #17a2b8;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  /* go to top button css end */
